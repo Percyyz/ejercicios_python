@@ -10,9 +10,12 @@ print(f"las letra {letra} aparece {contador} veces")
 
 #**Ejercicio Ocho**
 ##Escribir un programa que pida al usuario una palabra y luego muestre por pantalla la primera letra la letra que se encuentra en medio y la ultima letra separadas por comas(,).
-palabra_usuario:str=input("ingrese una palabra :")
-for i in reversed(palabra_usuario):
-    print(i)
+palabra = input("Introduce una palabra: ")
+primera_letra = palabra[0]
+longitud = len(palabra)
+letra_medio = palabra[longitud // 2]
+ultima_letra = palabra[-1]
+print(f"{primera_letra},{letra_medio},{ultima_letra}")
 
 #**Ejercicio Nueve**
 ##Escriba un programa que pregunte cuántos números se van a introducir, luego pida esos números, y muestre un mensaje cada vez que un número no sea mayor que el anterior.
