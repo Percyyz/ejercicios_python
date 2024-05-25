@@ -4,9 +4,9 @@ edad:int=int(input("ingrse su edad :"))
 if edad <4:
     print("puede entrar gratis")
 elif  4<= edad <= 18:
-    print("usted debe pagar 10 soles")
+    print("usted debe pagar 5 soles")
 else:
-    print("18 soles")
+    print("10 soles")
 
 #**Ejercicio Dos**
 ##Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces
