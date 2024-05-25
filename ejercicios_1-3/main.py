@@ -6,7 +6,7 @@ if edad <4:
 elif  4<= edad <= 18:
     print("usted debe pagar 10 soles")
 else:
-    print("mas")
+    print("18 soles")
 
 #**Ejercicio Dos**
 ##Escribir un programa que pida al usuario una palabra y la muestre por pantalla 10 veces
